@@ -44,7 +44,7 @@ about the savings.
 ''')
     parser.add_option("--pngcrush", dest="path", default="pngcrush",
         help="Path to the pngcrush executable")
-    parser.add_option("--pngcrush-opts", dest="opts", default="-q -brute -reduce",
+    parser.add_option("--pngcrush-opts", dest="opts", default="-q -rem alla -brute -reduce",
         help="Options to pass to pngcrush")
     parser.add_option("-s", "--since", dest="date", default="1970-01-01",
         help="Only crush files modified after the specified date")
